@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-jsx-remove-attributes",
+  "version": "1.0.0",
+  "description": "Babel plugin to remove JSX attributes",
+  "main": "index.js",
+  "repository": "https://github.com/leoavelino7/babel-plugin-remove-html-attributes",
+  "author": "Leonardo Avelino (leoavelino7)",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "babel",
+    "plugin",
+    "html",
+    "remove-attributes"
+  ],
+  "scripts": {
+    "preversion": "yarn test",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/babel-core": "6.25.7",
+    "@types/jest": "28.1.7",
+    "babel-core": "6.26.3",
+    "babel-plugin-syntax-jsx": "6.18.0",
+    "jsdom": "20.0.0",
+    "vitest": "0.22.1"
+  }
+}
